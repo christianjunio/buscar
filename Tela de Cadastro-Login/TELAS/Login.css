@@ -1,0 +1,85 @@
+*{
+    margin: auto;
+    flex-direction: column;
+}
+
+.background{
+    background-image: linear-gradient(#00457B,#b8f7ff);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+}
+
+.box{
+    background-color: #ffffff;   
+    box-shadow: 9px 9px 10px #000000b3;
+    border-radius: 30px;
+    width: 40em;
+    height: 34em;
+    margin-top: 1.5em;
+    display: flex;
+}
+
+.box-text{
+    font-family: Franklin Gothic Medium;
+    font-size: 4.3em;
+}
+
+.box-elements{
+    border-radius: 5px;
+}
+
+.box-elements input{
+    background-color: #b4b4b462;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    width: 20em;
+    height: 3em;
+    margin-bottom: 30px;
+    padding-left: 0.5em;
+    display: flex;
+}
+
+.cadastro input{
+    background-color: #57D89A;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.2em;
+    font-family: arial;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px #00000080;
+}
+
+.cadastro input:hover{
+    background-color: #a1f6cc;
+    cursor: pointer;
+}
+
+.image{
+    background-color: #ffffff;
+    border: solid #ffffff;
+    border-radius: 10em;
+    margin-top: 0.5em;
+    display: flex;
+}
+
+.pl{
+    width: 10em;
+    padding: 1em;
+}
+
+.log{
+    font-family: arial;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 720px){
+    .image, .pl{
+        display: none;
+    }
+}
